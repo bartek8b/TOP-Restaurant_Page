@@ -1,0 +1,24 @@
+{
+  "name": "zzz-odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartek8b/zzz-odin-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "Bartlomiej Balcerzak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartek8b/zzz-odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/bartek8b/zzz-odin-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
