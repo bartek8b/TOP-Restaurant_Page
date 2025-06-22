@@ -36,4 +36,10 @@ nav > button{
     background-color: lightblue;
     height: calc(100vh - 128px);
     padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
+#content > img {
+    width: 100%;
+}
+
