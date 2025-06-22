@@ -29,11 +29,11 @@ nav > button {
     outline: 1px solid cyan;
   }
   &:active {
-    outline: 3px solid cyan;
+    outline: 2px solid cyan;
   }
 }
 .open {
-  outline: 2px solid cyan;
+  outline: 3px solid cyan;
 }
 #content {
   background-color: lightblue;
