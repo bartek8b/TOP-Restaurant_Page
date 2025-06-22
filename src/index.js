@@ -1,1 +1,2 @@
-alert("Heyyyyy");
+console.log("Heyyyyy");
+import "./style.css";
