@@ -5,9 +5,9 @@ const imgAlt = 'picture of our team';
 const text = `We are glad to introduce our dummyselves to you:
 <br><br>
 <ul>
-    <li>Dummy Enterpreneur - CEO</li>
-    <li>Dummy Cook - Chief</li>
-    <li>Dummy waiter - Head of waiters dpt</li>
+    <li><p>Dummy Enterpreneur - CEO</p></li>
+    <li><p>Dummy Cook - Chief</p></li>
+    <li><p>Dummy waiter - Head of waiters dpt</p></li>
 </ul>
 `;
 
