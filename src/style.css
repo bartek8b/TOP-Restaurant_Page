@@ -1,3 +1,31 @@
 body{
     background-color: lightcyan;
+    margin: 0;
+    padding: 0;
+}
+header{
+    justify-items: center;
+}
+nav{
+    padding: 16px;
+    display: flex;
+    gap: 32px;
+}
+nav > button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    width: 128px;
+    background-color: lightblue;
+    &:hover{
+        outline: 1px solid cyan;
+    }
+    &:active{
+        outline: 2px solid cyan;
+    }
+}
+.open{
+    font-weight: bold;
 }
