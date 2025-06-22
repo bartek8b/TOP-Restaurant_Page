@@ -8,8 +8,6 @@ import {
 import { teamImg, imgAlt as teamImgAlt, text as teamText } from "./team.js";
 import { menuImg, imgAlt as menuImgAlt, text as menuText } from "./menu.js";
 
-console.log("creator:", creator);
-
 const homeBtn = document.querySelector(".homeBtn");
 const teamBtn = document.querySelector(".teamBtn");
 const menuBtn = document.querySelector(".menuBtn");
@@ -32,8 +30,7 @@ teamBtn.addEventListener("click", () => {
 
 menuBtn.addEventListener("click", () => {
   creator(menuImg, menuImgAlt, menuText);
-   handleMenuClasses(menuBtn, homeBtn, teamBtn);
-
+  handleMenuClasses(menuBtn, homeBtn, teamBtn);
 });
 
 window.onload = () => creator(restaurantImg, homeImgAlt, homeText);

@@ -26,10 +26,10 @@ nav > button {
   width: 128px;
   background-color: lightblue;
   &:hover {
-    outline: 1px solid cyan;
+    outline: 2px solid cyan;
   }
   &:active {
-    outline: 2px solid cyan;
+    outline: 3px solid cyan;
   }
 }
 .open {
