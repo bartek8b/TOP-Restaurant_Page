@@ -3,7 +3,7 @@ export const creator = (imgSrc, imgAlt, text) => {
     const image = document.createElement('img');
     const div = document.createElement('div');
 
-    image.setAttribute('src', imgSrc);
+    image.src = imgSrc;
     image.setAttribute('alt', imgAlt);
     div.innerHTML = text;
 
