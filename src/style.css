@@ -4,7 +4,10 @@ body{
     padding: 0;
 }
 header{
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
 }
 nav{
     padding: 16px;
@@ -28,4 +31,9 @@ nav > button{
 }
 .open{
     font-weight: bold;
+}
+#content{
+    background-color: lightblue;
+    height: calc(100vh - 128px);
+    padding: 16px;
 }
